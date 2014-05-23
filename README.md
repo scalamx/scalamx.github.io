@@ -1,32 +1,14 @@
 scala.org.mx
 ============
 
-Sitio Colaborativo Jekyll de la Comunidad Scala México
+Sitio y Blog colaborativo de la Comunidad Scala México
 
-# Jekyll Incorporated
-Modern Jekyll based blog.
+# Utilizamos Jekyll
+Este es un blog que se basa en el proyecto de [Jekyll](http://jekyllrb.com/).
 
-## Installation & Usage
+## Instalación y uso
     bundle install
-    jekyll serve --watch
+    jekyll serve
 
-_Note: Requires Ruby version 1.9.3 =>. For example use [rbenv](https://github.com/sstephenson/rbenv)_   
-
-
-## Configuration
-Edit: _config.yml (general options), main.css (theme colors &amp; fonts)
-
-```
-jekyll-incorporated/
-├── _config.yml
-├── _assets/
-    ├── stylesheets/
-        ├── main.scss
-```
-
-_Note: when editing _config.yml, you need to restart jekyll to see the changes.__
-
-
-## Copyright and license
-                                
-Copyright 2013 Kippt Inc. under [The MIT License ](LICENSE)`
+## Licencia
+El contenido de este blog se desarrolla con la licencia Creative Commons: Attribution-NonCommercial-ShareAlike 3.0 Unported (CC BY-NC-SA 3.0)
