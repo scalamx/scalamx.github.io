@@ -1,20 +1,90 @@
 ---
 layout: default
+title: scala.org.mx &bull; Grupo de Desarrolladores Scala México
+overview: true
 ---
 
-<div class="home">
-
-  <h1>Posts</h1>
-
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<section class="intro">
+    <div class="grid">
+        <div class="unit whole center-on-mobiles">
+            <p class="first">Grupo de Desarrolladores Scala México</p>
+        </div>
+    </div>
+</section>
+<section class="features">
+    <div class="grid">
+        <div class="unit one-third">
+            <h2>Comunidad</h2>
+            <p>
+                Somos una comunidad abierta que tiene el objetivo de promover el desarrollo y aprendizaje del lenguaje de progamación <em><a href="http://www.scala-lang.org/">Scala</a></em>.
+            </p>
+            <a href="/docs/usage/">Grupo de Desarrollo &rarr;</a>
+        </div>
+        <div class="unit one-third">
+            <h2>Actividades</h2>
+            <p>Promovemos actividades de difusión, entrenamiento y aprendizeje relacionadas con Scala y la hibridación de sistemas distribuidos.</p>
+            <a href="/docs/templates/">Actividades y Noticias &rarr;</a>
+        </div>
+        <div class="unit one-third">
+            <h2>Aprenda Scala</h2>
+            <p>
+                Aprenda el lenguaje de programación y forme parte de la comunidad mexicana de programadores Scala.
+            </p>
+            <a href="/docs/migrations/">Recursos de aprendizaje &rarr;</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+</section>
+<section class="quickstart">
+    <div class="grid">
+        <div class="unit golden-small center-on-mobiles">
+            <h4>Seminario de lenguaje Scala <em>Puebla, México</em>.</h4>
+        </div>
+        <div class="unit golden-large code">
+            <p class="title">Quick-start Instructions</p>
+            <div class="shell">
+                <p class="line">
+                    <span class="path">~</span>
+                    <span class="prompt">$</span>
+                    <span class="command">gem install jekyll</span>
+                </p>
+                <p class="line">
+                    <span class="path">~</span>
+                    <span class="prompt">$</span>
+                    <span class="command">jekyll new my-awesome-site</span>
+                </p>
+                <p class="line">
+                    <span class="path">~</span>
+                    <span class="prompt">$</span>
+                    <span class="command">cd my-awesome-site</span>
+                </p>
+                <p class="line">
+                    <span class="path">~/my-awesome-site</span>
+                    <span class="prompt">$</span>
+                    <span class="command">jekyll serve</span>
+                </p>
+                <p class="line">
+                    <span class="output"># => Now browse to http://localhost:4000</span>
+                </p>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</section>
+<section class="free-hosting">
+    <div class="grid">
+        <div class="unit whole">
+            <div class="grid pane">
+                <div class="unit whole center-on-mobiles">
+                    <img src="img/hAndf128.png" width="300" height="300" alt="Hackers & Founders Puebla">
+                    <div class="pane-content">
+                        <h2 class="center-on-mobiles"><strong>Integrando</strong> comunidades híbridas</h2>
+                        <p>Hackers & Founders promueve la integración de comunidades abiertas de profesionales, estudiantes y emprendedores dispuestos a cambiar el ecosistema de desarrollo en TI</p>
+                        <a href="http://pages.github.com/">Entre en contacto con nosotros para conocer más actividades &rarr;</a>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,10 +1,18 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Grupo de Desarrolladores Scala México
+email: contacto@scala.org.mx
+description: "Grupo abierto de Desarrolladores que tiene el objetivo de promover el uso del lenguaje de progamación Scala en México y América Latina.
 baseurl: ""
-url: "http://yourdomain.com"
+url: "http://scala.org.mx"
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+highlighter: pygments
+relative_permalinks: false
+permalink: /news/:year/:month/:day/:title/
+excerpt_separator: noifniof3nioaniof3nioafafinoafnoif
+gauges_id: 503c5af6613f5d0f19000027
+repository: https://github.com/scalamx/scalamx.github.io
+google_analytics_id: UA-50781869-1
+
