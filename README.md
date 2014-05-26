@@ -1,5 +1,6 @@
 scala.org.mx
 ============
+[![Build Status](https://travis-ci.org/scalamx/scalamx.github.io.svg)](https://travis-ci.org/scalamx/scalamx.github.io)
 
 Sitio y Blog colaborativo de la Comunidad Scala México
 
