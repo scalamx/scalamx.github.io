@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
+gem 'github-pages'
 gem 'therubyracer'
+gem 'jekyll', '1.1.2'
