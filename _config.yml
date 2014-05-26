@@ -1,9 +1,9 @@
 # Site settings
 title: Grupo de Desarrolladores Scala México
 email: contacto@scala.org.mx
-description: "Grupo abierto de Desarrolladores que tiene el objetivo de promover el uso del lenguaje de progamación Scala en México y América Latina.
+description: Grupo abierto de Desarrolladores que tiene el objetivo de promover el uso del lenguaje de progamación Scala en México y América Latina.
 baseurl: ""
-url: "http://scala.org.mx"
+url: http://scala.org.mx
 
 # Build settings
 markdown: kramdown
