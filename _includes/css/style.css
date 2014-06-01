@@ -224,7 +224,7 @@ footer a:hover img {
 
 .quickstart h4 {
   font-size: 24px;
-  line-height: 24px;
+  line-height: normal;
   margin-top: 20px;
   text-shadow: 0 1px 3px rgba(0,0,0,.8);
 }
@@ -244,6 +244,7 @@ footer a:hover img {
   .quickstart h4 {
     margin: 50px 0 0;
     text-align: center;
+    line-height: normal;
   }
 }
 
