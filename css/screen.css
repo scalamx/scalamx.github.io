@@ -22,6 +22,12 @@
  * $font-awesome.css  *
 \*                */
 {% include css/font-awesome.css %}
+/*                *\
+ * $custom.css  *
+ * If you want to customize css put it in this file.
+\*                */
+{% include css/custom.css %}
+
 {% endcapture %}
 
 {% if site.GH_ENV %}
