@@ -1,0 +1,10 @@
+---
+layout: news
+title: Algunas notas del seminario
+permalink: /seminario/
+author: all
+---
+
+{% for post in site.categories.seminario %}
+    {% include news_item.html %}
+{% endfor %}
