@@ -1,11 +1,20 @@
 ---
 layout: page
-title: About
+title: Comunidad Scala México
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Bienvenido a la comunidad de desarrollo del lenguaje de programación Scala en México.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Somos una comunidad abierta de Programadores, Arquitectos de Sofware y Líderes de Desarrollo enfocados en obtener 
+lo mejor del lenguaje Scala a través del trabajo colaborativo y el aprendizaje continuo de sus tecnologías.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Adoptamos un enfoque de participación hibrido donde cada tecnología ofrece lo mejor de si y se integra
+en soluciones de software robusto que el lenguaje de programación Scala fortalece. Nuestra comunidad impulsa
+el diseño de soluciones empresariales y académicas pequeñas hasta aquellas para el manejo de Big Data y Cloud Computing.
+
+[Directorio de Participantes]
+
+[Directorio de Empresas]
+
+
