@@ -5,10 +5,13 @@
     <li class="{% if page.url contains '/blog/' %}current{% endif %}">
         <a href="/blog/">Blog</a>
     </li>
-    <li class="{% if page.url contains '/seminario/' %}current{% endif %}">
+    <li class="{% if page.author %}current{% endif %}">
         <a href="/seminario/">Seminario</a>
     </li>
     <li>
-        <a href="https://github.com/scalamx/">GitHub</a>
+        <a href="/about/">Comunidad</a>
+    </li>
+    <li>
+        <a href="{{ site.repository }}">GitHub</a>
     </li>
 </ul>
