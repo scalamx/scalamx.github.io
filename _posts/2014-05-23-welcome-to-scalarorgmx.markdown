@@ -1,6 +1,6 @@
 ---
 layout: post
-author: "Salvador Parra"
+author: "sparra"
 title:  "Bienvenidos a la comunidad Scala México"
 date:   2014-05-23 01:16:55
 categories: scalamx redaccion
