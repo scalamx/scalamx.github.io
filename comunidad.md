@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Comunidad Scala México
-permalink: /about/
+permalink: /comunidad/
 ---
 
 Bienvenido a la comunidad de desarrollo del lenguaje de programación Scala en México.

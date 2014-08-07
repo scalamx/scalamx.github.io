@@ -4,8 +4,8 @@
       <li class="{% if page.title == 'Artículos y Participaciones' %}current{% endif %}">
         <a href="/blog/">Todos los Artículos</a>
       </li>
-      <li class="{% if page.title == 'Seminario' %}current{% endif %}">
-        <a href="/seminario/participa">Participaciones</a>
+      <li class="{% if page.url contains '/participa/' %}current{% endif %}">
+        <a href="/blog/participa/">Lineamientos de participaci&oacute;n</a>
       </li>
     </ul>
     <h4>Recientes</h4>
