@@ -2,7 +2,7 @@
 layout: post
 author: "poguez"
 title: "Participa en el blog de ScalaMX."
-permalink: /seminario/participa/
+permalink: /participa/
 date:   2014-08-01 00:37:55
 categories: participa
 ---
