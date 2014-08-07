@@ -17,7 +17,9 @@ Empezaré con una caracteristica propia de los lenguajes funcionales (como *Hask
 
 Ahora abajo les muestro el algoritmo del **QuickSort** implementado en Java.
 
-{% highlight java %}
+
+
+```
 package de.vogella.algorithms.sort.quicksort;
 
 public class Quicksort  {
@@ -64,10 +66,9 @@ public class Quicksort  {
 }
 
 {% endhighlight %}
-
+```
 Este es la implementacion en Scala.
-{% highlight scala %}
-
+```
 def sort(xs: Array[Int]) {
 	def swap(i: Int, j: Int) {
 		val t = xs(i); xs(i) = xs(j); xs(j) = t
@@ -90,12 +91,11 @@ def sort(xs: Array[Int]) {
 	sort1(0, xs.length - 1)
 }
 
-
-{% endhighlight %}
+```
 
 ¿Iguales no? ahora les muestro el algoritmo **QuickSort** implementado en Scala pero con estilo *funcional*. 
 
-
+```
 {% highlight scala %}
 def sort(xs: Array[Int]): Array[Int] = {
 	if (xs.length <= 1) xs
@@ -107,8 +107,7 @@ def sort(xs: Array[Int]): Array[Int] = {
 			sort(xs filter (pivot <)))
 	}
 }
-
-{% endhighlight %}
+```
 
 
 El algoritmo implementado de manera funcional captura la esencia del algoritmo QuickSort de manera consisa:
