@@ -96,7 +96,6 @@ def sort(xs: Array[Int]) {
 ¿Iguales no? ahora les muestro el algoritmo **QuickSort** implementado en Scala pero con estilo *funcional*. 
 
 ```
-{% highlight scala %}
 def sort(xs: Array[Int]): Array[Int] = {
 	if (xs.length <= 1) xs
 	else {
