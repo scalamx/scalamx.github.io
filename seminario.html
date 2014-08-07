@@ -8,3 +8,7 @@ author: all
 {% for post in site.categories.seminario %}
     {% include news_item.html %}
 {% endfor %}
+
+{% if site.categories.seminario.nil? %}
+<h2>Nuestros posts se están cocinando</h2>
+{% endif %}
