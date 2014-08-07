@@ -17,7 +17,7 @@ Empezaré con una caracteristica propia de los lenguajes funcionales (como *Hask
 
 Ahora abajo les muestro el algoritmo del **QuickSort** implementado en Java.
 
-{% highligh java %}
+{% highlight java %}
 package de.vogella.algorithms.sort.quicksort;
 
 public class Quicksort  {
@@ -43,7 +43,7 @@ public class Quicksort  {
       while (numbers[j] > pivot) {
         j--;
       }
-
+      
       if (i <= j) {
         exchange(i, j);
         i++;
