@@ -1,8 +1,8 @@
 ---
-layout: post
-author: "pazthor"
-title:  "Un analisis básico sobre la ventaja de implementar algoritmos en el lenguaje Scala"
-date:   2014-08-7 01:16:55
+layout    : post
+author    : "pazthor"
+title     : "Un análisis básico sobre la ventaja de implementar algoritmos en el lenguaje Scala"
+date      : 2014-08-7 01:16:55
 categories: scalamx redaccion sort algoritmos implementacion 
 ---
 ###Por que Scala###
@@ -15,10 +15,10 @@ Empezaré con una caracteristica propia de los lenguajes funcionales (como *Hask
 >a partir de las definiciones previas y del uso de las variables en el cuerpo de las funciones.
 
 
-Ahora abajo les muestro el algoritmo del **QuickSort** implementado en Java.
 
+A continuación se muestra 3 ejemplos del algoritmo *QuickSort* en Java y Scala, notar la diferencia entre las primeras dos implementaciones y compararla con la última implementación y ver la diferencias.
 
-
+**QuickSort** implementado en Java.
 ```
 package de.vogella.algorithms.sort.quicksort;
 
@@ -67,6 +67,7 @@ public class Quicksort  {
 
 {% endhighlight %}
 ```
+
 Este es la implementacion en Scala.
 ```
 def sort(xs: Array[Int]) {
@@ -93,7 +94,7 @@ def sort(xs: Array[Int]) {
 
 ```
 
-¿Iguales no? ahora les muestro el algoritmo **QuickSort** implementado en Scala pero con estilo *funcional*. 
+La siguiente implementación fue escrita en Scala, pero con los principios de la programación funcional y aprovechando la inferencia de tipos:
 
 ```
 def sort(xs: Array[Int]): Array[Int] = {
@@ -109,16 +110,26 @@ def sort(xs: Array[Int]): Array[Int] = {
 ```
 
 
+
 El algoritmo implementado de manera funcional captura la esencia del algoritmo QuickSort de manera consisa:
 
 *Si el arreglo está vacío o consta de un solo elemento,entonces  ya está ordenado, de modo que se devuelve inmediatamente.
+
 *Si el arreglo no esta vacío, elije un elemento y usalo como pivote.
+
 * Se reparte el arreglo en dos sub-arreglos que contienen elementos que son más pequeños que, 
 respectivamente mayor que el elemento de pivote, y una tercera matriz que contiene elementos iguales al elemento pivote.
-*Clasificar los primeros dos sub-arreglos por una invocación recursiva de la función **sort**
+
+*Clasificar los primeros dos sub-arreglos por una invocación recursiva de la función  **sort**
+
 *El resultado se obtiene añadiendo los tres sub-arreglos.
 
 
+
+
+###Nota###
+Si no tienes idea de como funciona el algoritmo Quicksort, recomiendo que veas esta [Animación de QuickSort](http://en.wikipedia.org/wiki/Quicksort#mediaviewer/File:Sorting_quicksort_anim.gif)
+.
 
 **Referencia**
 * [Scala By Example, Martin Odersky](http://www.scala-lang.org/docu/files/ScalaByExample.pdf)
