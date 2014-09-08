@@ -65,7 +65,7 @@ public class Quicksort  {
   }
 }
 
-{% endhighlight %}
+
 ```
 
 Este es la implementacion en Scala.
