@@ -9,7 +9,7 @@ categories: scalamx redaccion sort algoritmos implementacion
 Scala es un lenguaje hibrido y con un gran poder para el desarrollo de software robusto, basta con ver los ejemplos de  [Coursera](https://tech.coursera.org/blog/2014/02/18/why-we-love-scala-at-coursera/) y [Twitter](http://www.artima.com/scalazine/articles/twitter_on_scala.html) para saber porque. Es por ello que en este post, pretendo mostrar algunas caracteristicas a la hora de implementar un algoritmo de ordenamiento en Scala.
 
 
-Empezaré con una caracteristica propia de los lenguajes funcionales (como *Haskel*,*OCalm*,*F#* entre otros) y es la **inferencia de tipos**. 
+Empezaré con una caracteristica propia de los lenguajes funcionales (como *Haskell*,*OCaml*,*F#* entre otros) y es la **inferencia de tipos**. 
 > La inferencia de tipos asigna automáticamente un tipo de datos a una función sin necesidad de que el programador lo escriba.
 > El tipo de las funciones es reconstruido a partir de un análisis estático del programa realizado por el compilador o intérprete del lenguaje, 
 >a partir de las definiciones previas y del uso de las variables en el cuerpo de las funciones.
