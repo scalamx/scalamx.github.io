@@ -5,8 +5,12 @@ title     : "Un análisis básico sobre la ventaja de implementar algoritmos en 
 date      : 2014-08-7 01:16:55
 categories: scalamx redaccion sort algoritmos implementacion 
 ---
+
+
 ###¿Por qué Scala?###
-Scala es un lenguaje hibrido y con un gran poder para el desarrollo de software robusto, basta con ver los ejemplos de  [Coursera](https://tech.coursera.org/blog/2014/02/18/why-we-love-scala-at-coursera/) y [Twitter](http://www.artima.com/scalazine/articles/twitter_on_scala.html) para saber porque. Es por ello que en este post, pretendo mostrar algunas caracteristicas a la hora de implementar un algoritmo de ordenamiento en Scala.
+
+Scala es un lenguaje hibrido y con un gran poder para el desarrollo de software robusto, basta con ver los ejemplos de  [Coursera](https://tech.coursera.org/blog/2014/02/18/why-we-love-scala-at-coursera/) y [Twitter](http://www.artima.com/scalazine/articles/twitter_on_scala.html) para saber porque. 
+Es por ello que en este post, pretendo mostrar algunas caracteristicas a la hora de implementar un algoritmo de ordenamiento en Scala.
 
 
 Empezaré con una caracteristica propia de los lenguajes funcionales (como *Haskell*,*OCaml*,*F#* entre otros) y es la **inferencia de tipos**.
@@ -20,12 +24,11 @@ Empezaré con una caracteristica propia de los lenguajes funcionales (como *Hask
 
 A continuación se muestra 3 ejemplos del algoritmo *QuickSort* en Java y Scala, notar la diferencia entre las primeras dos implementaciones y compararla con la última implementación y ver la diferencias.
 
+
 **QuickSort** implementado en Java.
 
 
-```
-
-
+{% highlight scala %}
 package de.vogella.algorithms.sort.quicksort;
 
 public class Quicksort  {
@@ -69,14 +72,12 @@ public class Quicksort  {
     numbers[j] = temp;
   }
 }
-
-
-```
+{% endhighlight %}
 
 Este es la implementacion en Scala.
 
 
-```
+{% highlight scala %}
 def sort(xs: Array[Int]) {
   def swap(i: Int, j: Int) {
     val t = xs(i); xs(i) = xs(j); xs(j) = t
@@ -98,13 +99,13 @@ def sort(xs: Array[Int]) {
   }
   sort1(0, xs.length - 1)
 }
-```
+{% endhighlight %}
 
 
 La siguiente implementación fue escrita en Scala, pero con los principios de la programación funcional y aprovechando la inferencia de tipos:
 
 
-```
+{% highlight scala %}
 def sort(xs: Array[Int]): Array[Int] = {
   if (xs.length <= 1) xs
   else {
@@ -115,7 +116,7 @@ def sort(xs: Array[Int]): Array[Int] = {
           sort(xs filter (pivot <)))
   }
 }
-```
+{% endhighlight %}
 
 
 El algoritmo implementado de manera funcional captura la esencia del algoritmo QuickSort de manera consisa:
@@ -137,7 +138,7 @@ El algoritmo implementado de manera funcional captura la esencia del algoritmo Q
 ###Nota###
   Si no tienes idea de como funciona el algoritmo Quicksort, recomiendo que veas esta [Animación de QuickSort](http://en.wikipedia.org/wiki/Quicksort#mediaviewer/File:Sorting_quicksort_anim.gif).
 
-  **Referencia**
+###Referencia###
 
 * [Scala By Example, Martin Odersky](http://www.scala-lang.org/docu/files/ScalaByExample.pdf)
 
