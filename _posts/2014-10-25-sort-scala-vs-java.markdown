@@ -28,7 +28,7 @@ A continuación se muestra 3 ejemplos del algoritmo *QuickSort* en Java y Scala,
 **QuickSort** implementado en Java.
 
 
-{% highlight scala %}
+{% highlight scala linenos %}
 package de.vogella.algorithms.sort.quicksort;
 
 public class Quicksort  {
@@ -77,7 +77,7 @@ public class Quicksort  {
 Este es la implementacion en Scala.
 
 
-{% highlight scala %}
+{% highlight scala linenos %}
 def sort(xs: Array[Int]) {
   def swap(i: Int, j: Int) {
     val t = xs(i); xs(i) = xs(j); xs(j) = t
@@ -105,7 +105,7 @@ def sort(xs: Array[Int]) {
 La siguiente implementación fue escrita en Scala, pero con los principios de la programación funcional y aprovechando la inferencia de tipos:
 
 
-{% highlight scala %}
+{% highlight scala linenos %}
 def sort(xs: Array[Int]): Array[Int] = {
   if (xs.length <= 1) xs
   else {
