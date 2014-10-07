@@ -13,7 +13,7 @@ Este blog es abierto e inclusivo por definición, queremos que  sea un espacio d
 personas dentro de nuestra comunidad ofrezcan sus opiniones y consejos a través
 de este blog. A los que están fuera, también les queremos dar la oportunidad de
 escribir contenidos  que puedan enriquecer nuestro entendimiento
-en el espectro de arquitecturas y soluciones bloque variadas, así como
+en el espectro de arquitecturas de software, soluciones de computo reactivo, así como
 de cómputo distribuido.
 
 Nuestro blog está alojado en Github, por lo que te invitamos a clonar
