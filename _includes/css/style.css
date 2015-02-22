@@ -258,7 +258,10 @@ footer a:hover img {
 }
 
 #img-idit {
-    float: right;
+  margin-left:auto;
+  margin-right:auto;
+  width: 7em;
+  display:block;
 }
 
 .quickstart .code .title {
