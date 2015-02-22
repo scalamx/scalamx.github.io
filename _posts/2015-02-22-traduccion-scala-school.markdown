@@ -13,7 +13,7 @@ categories: scala tutorial twitter news
 {% include image.html url="/img/posts/scala_school.png" width="90%" description="Scala School un tutorial rápido a Scala"  %}
 
 
-Este es solo para informarles que iniciamos la traducción del tutorial de [Scala School de Twitter][1].
+Este post es para informarles que iniciamos la traducción del tutorial de [Scala School de Twitter][1].
 El tutorial de Scala School incluye una rápida introducción al lenguaje en 13 secciones:
 
 
@@ -32,8 +32,8 @@ El tutorial de Scala School incluye una rápida introducción al lenguaje en 13 
 *  Searchbird
 
 
-Si quisieran cooperar en la traducción del tutorial, hay issues abiertos en [nuestro fork de Scala School][2] en Github.
-Pueden tomar cualquiera que no tenga una persona asignada.
+Si quisieran cooperar en la traducción del tutorial hay issues abiertos en [nuestro fork de Scala School][2] en Github.
+Pueden tomar cualquiera que no tenga una persona asignada, los invitamos a participar.
 
 
 `break`
