@@ -257,6 +257,10 @@ footer a:hover img {
   line-height: 1.3em;
 }
 
+#img-idit {
+    float: right;
+}
+
 .quickstart .code .title {
   display: block;
   text-align: center;
