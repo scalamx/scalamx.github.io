@@ -6,6 +6,7 @@ baseurl: '/'
 url: http://scala.org.mx
 
 # Build settings
+# sample comment
 markdown: kramdown
 permalink: pretty
 highlighter: pygments
